@@ -39,7 +39,7 @@ defmodule LiveCharts.MixProject do
 
   defp deps do
     [
-      {:phoenix_live_view, "~> 1.0.0"},
+      {:phoenix_live_view, "~> 1.0"},
       {:jason, "~> 1.4.0", optional: true},
       {:esbuild, "~> 0.8.0", only: :dev},
       {:ex_doc, ">= 0.0.0", only: :dev},
